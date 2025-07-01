@@ -4809,7 +4809,7 @@ Players.PlayerAdded:Connect(giveCaseToPlayer)
 end)
 
 
-    local UITab20 = win:Tab("颜色与死亡", "16060333448")
+    local UITab20 = win:Tab("『颜色与死亡』", "16060333448")
     local about = UITab20:section("刷子《传送功能》", false)
     
     about:Button(
@@ -6102,7 +6102,7 @@ end)
 
 local UITab77 = win:Tab("『奶酪逃亡』",'16060333448')
 
-local tab = UITab77:section("『主要』",true)
+local tab = UITab77:section("『主要』",false)
 
 tab:Label("锁门密码: 3842")
 
@@ -6173,7 +6173,7 @@ tab:Button("安全区", function()
           
 local UITab80 = win:Tab("『凹凸世界』",'16060333448')
 
-local tab = UITab80:section("『主要』",true)
+local tab = UITab80:section("『主要』",false)
 
 tab:Button("反挂机",function()
 game:GetService("Players").LocalPlayer.Idled:connect(function()
@@ -6189,7 +6189,7 @@ end)
 
 local UITab41 = win:Tab("『一个普通的露营故事』",'16060333448')
 
-local about = UITab41:section("功能",true)
+local about = UITab41:section("功能",false)
 
 about:Button("飞起来",function()
      loadstring(game:HttpGet("https://raw.githubusercontent.com/dingding123hhh/fly/main/%E4%B8%81%E4%B8%81%E9%A3%9E%E8%A1%8C.txt"))()
@@ -6279,7 +6279,7 @@ about:Button("自动寻找木头",function()
   	
 local UITab42 = win:Tab("『巴掌模拟器』",'16060333448')
 
-local about = UITab42:section("功能",true)
+local about = UITab42:section("功能",false)
 
 about:Toggle("无CD","Toggle" ,false, function(Value)
     local player = game.Players.LocalPlayer
@@ -6633,7 +6633,7 @@ end)
 
 local UITab43 = win:Tab("『刀刃球』",'16060333448')
 
-local about = UITab43:section("自动",true)
+local about = UITab43:section("自动",false)
 
 about:Button("自动攻击",function()
 local Debug = false -- Set this to true if you want my debug output.
@@ -6831,9 +6831,9 @@ Balls.ChildAdded:Connect(function(ball)
 end)
 end)
 
-local UITab44 = win:Tab("『奎尔湖』",'7734068321')
+local UITab44 = win:Tab("『奎尔湖』",'16060333448')
 
-local about = UITab44:section("『主要功能』",true)
+local about = UITab44:section("『主要功能』",false)
 
 about:Button("奎尔湖1",function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/Solx69/Shit-Boy-Hub-Main/main/Master.lua'))()
@@ -6888,7 +6888,7 @@ about:Toggle("无敌模式","", false, function(Value)
     
 local UITab74 = win:Tab("『挖到中国』",'16060333448')
 
-local about = UITab74:section("『远程购买炸弹』",true)
+local about = UITab74:section("『远程购买炸弹』",false)
 
 about:Button("管状炸药", function()
 local args = {
@@ -6997,7 +6997,7 @@ end)
 
 local UITab75 = win:Tab("『进击的僵尸』",'16060333448')
 
-local about = UITab75:section("『主要』",true)
+local about = UITab75:section("『主要』",false)
 
 about:Button("指令",function()
     loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-unfair-Hub-3936"))()
@@ -7064,7 +7064,7 @@ about:Button("寻找僵尸",function()
   
 local UITab76 = win:Tab("『在披萨店工作』",'16060333448')
 
-local tab = UITab76:section("『主要』",true)
+local tab = UITab76:section("『主要』",false)
 
 tab:Button("远程变为经理",function()
 local Players = game:GetService("Players")
@@ -8158,7 +8158,7 @@ end)
 
 local UITab77 = win:Tab("『奶酪逃亡』",'16060333448')
 
-local tab = UITab77:section("『主要』",true)
+local tab = UITab77:section("『主要』",false)
 
 tab:Label("锁门密码: 3842")
 
@@ -8229,7 +8229,7 @@ tab:Button("安全区", function()
           
 local UITab80 = win:Tab("『凹凸世界』",'16060333448')
 
-local tab = UITab80:section("『主要』",true)
+local tab = UITab80:section("『主要』",false)
 
 tab:Button("反挂机",function()
 game:GetService("Players").LocalPlayer.Idled:connect(function()
@@ -8245,7 +8245,7 @@ end)
 
 local UITab71 = win:Tab("『烹饪大亨』",'16060333448')
 
-local about = UITab71:section("『烹饪大亨』",true)
+local about = UITab71:section("『烹饪大亨』",false)
 
 about:Button("NPC自动烹饪并送达",function()
 		local chiefInstantCook = true
