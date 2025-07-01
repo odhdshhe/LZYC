@@ -26,7 +26,7 @@ US.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
 
 ewroiucn.Size = UDim2.new(0.75, 0, 0.1, 0)
 ewroiucn.Position = UDim2.new(0.03, 0, 0, 0)
-ewroiucn.Text = "冷脚本公告"
+ewroiucn.Text = "落陨中心公告"
 ewroiucn.TextScaled = true
 ewroiucn.Font = Enum.Font.SourceSansBold
 ewroiucn.TextColor3 = Color3.new(1, 1, 1)
