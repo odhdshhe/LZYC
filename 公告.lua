@@ -68,8 +68,6 @@ nbveiru.Text = [[
 帮助者
 ————————————————}
 李市川
-紅鲨
-小玄奘
 ————————————————}
 欢迎你的使用!
 祝你:身体健康,工作顺利,心想事成,一切顺利!(*^-^)ﾉ
@@ -133,7 +131,7 @@ end
 ScreenGui:Destroy()
 
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/LENG8123/new-id/refs/heads/main/%E6%A3%80%E6%B5%8B%E7%9C%9F%E6%AD%A3%E7%9A%84%E6%9C%8D%E5%8A%A1%E5%99%A8id.txt"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/LZYC/refs/heads/main/LYZX%20-ZCLY-Roblox-Script.txt"))()
 
     
     viuereb.Text = "加载中..."
