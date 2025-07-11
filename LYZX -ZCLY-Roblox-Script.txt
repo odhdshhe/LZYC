@@ -2744,7 +2744,7 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage").NetworkContainer.RemoteEvents.JanjiJiwa:FireServer(unpack(args))
-    wait(15) 
+    wait(0.1) 
 end
 end)
 
@@ -2755,7 +2755,7 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage").NetworkContainer.RemoteEvents.JanjiJiwa:FireServer(unpack(args))
-    wait(15) 
+    wait(0.1) 
 end
 end)
 
@@ -2765,21 +2765,18 @@ about:Label("两个全开不然没效果")
 about:Button("新刷钱",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/LENG8123/CDID/refs/heads/main/cdid.lua"))()
 end)
-about:Dropdown("传送位置","Dropdown",{'二图','三图','
-'4图'},function(Value)
-    local epoh2 = game:GetService('Players')
-    local epoh3 = epoh2.LocalPlayer.Character.HumanoidRootPart
-    if Value == '二图' then
-        local epoh1 = CFrame.new(-13721.822265625, 1052.5948486328125, -18003.064453125)
-        epoh3.CFrame = epoh1
-    elseif Value == '三图' then
-        local epoh1 = CFrame.new(-13720.4833984375, 1052.5948486328125, -18003.037109375)
-        epoh3.CFrame = epoh1
-    elseif Value == '四图' then
-        local epoh1 = CFrame.new(2547.734619140625, 4.019913196563721, 444.8086853027344)
-        epoh3.CFrame = epoh1
-    end
+
+about:Button("传送咖啡厅(二图)",function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(388.2000427246094, 6.250002384185791, 1335.250244140625)   
   end)
+  
+about:Button("传送至咖啡厅(三图)",function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-13721.822265625, 1052.5948486328125, -18003.064453125)
+end)
+
+about:Button("传送至咖啡厅(四图)",function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2547.734619140625, 4.019913196563721, 444.8086853027344)
+end)
 
 local UITab15 = win:Tab("『南极洲探险』",'16060333448')
 
